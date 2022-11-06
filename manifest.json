@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+
+  "name": "codoro",
+  "version": "1.2.0",
+   "description":"theme make by: lê ngọc cương\nborn in: 14/1/2009\nloc: Việt Nam,Thái Bình\nserver discord: https://discord.gg/WGckkSyupg\ncarrd: https://lengoccuong.carrd.com\nfacebook: https://www.facebook.com/lengoccuong.757/\nyoutube channel: https://www.youtube.com/channel/UCz3w48VCPlssttGroLwgTPQ\ngithub: https://github.com/alexberga757",
+  "content_scripts": [ {
+   "css": [ "css/youtube.css" ],
+    "js": [ "js/0.js" ],
+   "matches": [ "*://youtube.com/*","*://*.youtube.com/*"]
+} ],
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "tabs"
+  ],
+  "action":{
+    "default_popup":"index.html"
+  }
+
+}

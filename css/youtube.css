@@ -1,0 +1,23 @@
+ .ytd-two-column-browse-results-renderer,.ytd-watch-flexy,#guide-renderer,ytd-mini-guide-renderer  {
+    background: url("https://i.pinimg.com/originals/2c/c5/9d/2cc59d32b857f3be63142eb33c643f4c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+#chips-wrapper {
+  all:  none;
+}
+.ytd-feed-filter-chip-bar-renderer {
+  
+   margin-top: 3px;
+   border-radius: 10px;
+}
+ytd-browse  {
+   background: transparent;
+}
+
+.ytd-backstage-post-thread-renderer,#video-preview-container,.ytd-feed-filter-chip-bar-renderer,#container,#ytd-rich-item-renderer,.ytd-item-section-renderer,#description,.ytd-add-to-playlist-renderer {border-radius: 10px;backdrop-filter: blur(10px);background: transparent;}
+
+.html5-main-video {
+   border-radius: 10px;
+}
