@@ -2,7 +2,7 @@
 
 theme make by: lê ngọc cương
 <br />
-born in: 14/1/2009ư
+born in: 14/1/2009
 <br />
 loc: Việt Nam,Thái Bình
 <br />
